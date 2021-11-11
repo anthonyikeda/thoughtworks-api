@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "thoughtworks-api"
+  description: "This is an api to demonstrate how awesome we are at thoughtworks."
+  annotations:
+    github.com/project-slug: anthonyikeda/thoughtworks-api
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "anthonyikeda"

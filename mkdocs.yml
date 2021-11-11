@@ -1,0 +1,8 @@
+site_name: "thoughtworks-api"
+site_description: "This is an api to demonstrate how awesome we are at thoughtworks."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
